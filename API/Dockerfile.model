@@ -1,0 +1,8 @@
+# Dockerfile.model
+FROM my_fastapi_faceapp:latest
+
+COPY ./singers_info.json /code/singers_info.json
+COPY ./parameter.json /code/parameter.json
+
+COPY ./certs /code/certs
+COPY model.keras /code/model.keras

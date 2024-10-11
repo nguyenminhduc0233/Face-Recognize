@@ -1,0 +1,16 @@
+[
+    {     
+        "_comment1" : "predictor.py",
+        "lower_bound" : 0.3,
+        "upper_bound" : 1,
+
+        "_comment2" : "test31.py",
+        "start_class" : 1,
+        "end_class" : 351,
+
+        "_comment3" : "test9.py - main.py",
+        "scaleFactor" : 1.3,
+        "minNeighbors" : 5,
+        "image_size" : 160
+    }
+]
